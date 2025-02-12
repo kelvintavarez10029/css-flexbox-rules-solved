@@ -28,7 +28,13 @@ form {
   border: 1px solid #a9a9a9;
   padding: 20px;
 }
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
 
+}
 .subtext {
   color: #a9a9a9;
   font-weight: unset;
@@ -82,4 +88,35 @@ input[type="submit"]:hover {
 
 .form select {
   height: 30px;
+}
+.form-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+         
+.sign-in-form {    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-input-control{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    gap: 6px;
+}
+.form-checkbox-control {
+  padding: 2rem 0;
+}
+.form-submit-control{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    gap: 1rem;
 }

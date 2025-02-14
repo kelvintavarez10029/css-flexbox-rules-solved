@@ -322,10 +322,11 @@ i.fa-th-list {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding: 20px;
   border-radius: 8px;
   gap: 15px; 
+  width: 100%;
 }
 
 .lines .product-image-wrapper {
@@ -339,19 +340,27 @@ i.fa-th-list {
   gap: 20px;
   width: 100%;
   height: auto;
+  align-items: center;
 }
 
 .lines .product-info {
   width: 100%;
   height: auto;
+  flex: 1;
+  padding-right: 20px;
+  border-right: 1px solid #8d8ba5;
+  height: 200px;
 }
 
 .lines .product-action {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding-top: 30px;
-
+  min-width: 200px;
+ 
+ 
 }
 
 /* LINES-ACTION VIEW */

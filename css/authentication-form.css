@@ -106,8 +106,10 @@ input[type="submit"]:hover {
 .form-input-control{
     display: flex;
     flex-direction: column;
+    width: 100%;
     padding-bottom: 1rem;
     gap: 6px;
+
 }
 .form-checkbox-control {
   padding: 2rem 0;
@@ -120,3 +122,15 @@ input[type="submit"]:hover {
     padding-top: 1rem;
     gap: 1rem;
 }
+.form-group-horizontal-control {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 1rem;
+}
+#state, #city{
+  width: 100%;
+  height: 30px;
+}
+
